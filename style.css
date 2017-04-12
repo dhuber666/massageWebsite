@@ -147,6 +147,16 @@ padding: 5px;
 border: 0;
 box-shadow: 0;
 display: inline;
+-webkit-transition: -webkit-transform .8s ease-in-out;
+transition: transform .8s ease-in-out;
+}
+
+
+#share-buttons img:hover {
+
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+
 }
 
 .content {
